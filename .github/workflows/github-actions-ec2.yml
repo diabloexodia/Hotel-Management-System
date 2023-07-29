@@ -37,5 +37,4 @@ jobs:
             sudo rm -r /var/www/html/*
             cd home
             sudo mv * /var/www/html
-            cd /var/www/html/index
-            sudo mv * ../
+            
