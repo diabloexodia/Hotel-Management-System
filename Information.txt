@@ -1,5 +1,5 @@
 Database Name : - hotel.sql
-user name : - Admin
-password  : - 1234
+user name : - 
+password  : -
 
 ENJOY DDDD
