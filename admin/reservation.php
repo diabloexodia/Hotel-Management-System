@@ -212,7 +212,7 @@ include('db.php')
 							else
 							{
 							
-									$con=mysqli_connect("ec2-54-255-40-188.ap-southeast-1.compute.amazonaws.com","admin","admin123","hotel",3306) ;
+									$con=mysqli_connect("hoteldb.csze4pgxgikq.ap-southeast-1.rds.amazonaws.com","admin","admin123","hotel",3306) ;
 									$check="SELECT * FROM roombook WHERE email = '$_POST[email]'";
 									$rs = mysqli_query($con,$check);
 									$data = mysqli_fetch_array($rs, MYSQLI_NUM);
