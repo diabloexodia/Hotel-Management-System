@@ -100,7 +100,7 @@ if(!isset($_SESSION["user"]))
                  <!-- /. ROW  -->
 				 <?php
 				include('db.php');
-				$mail = "SELECT * FROM `contact`";
+				$mail = "SELECT * FROM `customer`";
 				$rew = mysqli_query($con,$mail);
 				
 			   ?>
@@ -183,7 +183,7 @@ if(!isset($_SESSION["user"]))
             </div>
                <?php
 				
-				$sql = "SELECT * FROM `contact`";
+				$sql = "SELECT * FROM `customer`";
 				$re = mysqli_query($con,$sql);
 				
 			   ?>
