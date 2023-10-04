@@ -283,7 +283,7 @@ if(!isset($_SESSION["user"]))
                                 </div>
                                 <?php
 								
-								$fsql = "SELECT * FROM `contact`";
+								$fsql = "SELECT * FROM `customer`";
 								$fre = mysqli_query($con,$fsql);
 								$f =0;
 								while($row=mysqli_fetch_array($fre) )
@@ -322,7 +322,7 @@ if(!isset($_SESSION["user"]))
                                     <tbody>
                                         
 									<?php
-									$csql = "select * from contact";
+									$csql = "select * from customer";
 									$cre = mysqli_query($con,$csql);
 									while($crow=mysqli_fetch_array($cre) )
 									{	
